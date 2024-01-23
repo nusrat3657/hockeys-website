@@ -33,13 +33,13 @@
   </script>
 </head>
 <body>
-    <header class="lg:my-10 lg:mx-28 mx-5 my-2">
+    <header class=" lg:my-10 lg:mx-28 mx-5 my-2">
         <!-- nav section start -->
-        <nav class="mb-10">
+        <nav class=" mb-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="lg:btn btn-ghost lg:hidden mr-2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -62,14 +62,15 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                    <div class="mr-8">
+                    <div class="mr-5">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <a class="btn  bg-main-color text-white">Get Ticket</a>
+                    <a class="btn bg-main-color text-white">Get Ticket</a>
                 </div>
               </div>
         </nav>
         <!-- banner section -->
+      <div>
         <div class="carousel w-full lg:h-[550px]">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png" class="w-full" />
@@ -92,7 +93,14 @@
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div> 
-          </div>
+            
+        </div>
+        <!-- heros section -->
+            <div class=" lg:absolute lg:-mt-[165px] bg-[#131318] rounded-xl lg:h-32 lg:w-[465px] mt-5 lg:ml-[800px] p-5">
+              <h3 class="text-[16px] font-bold text-[#FFF]">Meet all the heroes from the field</h3>
+              <p class="text-[13px] text-gray-400 pt-3">A YouTube-channel for beginning hockey-players or players who want to know everything about it! </p>
+            </div>
+        </div>
     </header>
     <main class="lg:my-10 lg:mx-28 mx-5 my-2">
         <hr class="lg:mx-0 mx-5 lg:mt-20 mt-8">
@@ -105,22 +113,22 @@
         <hr class="lg:mx-0 mx-5 lg:my-10 my-8">
         <section class="flex justify-betweens flex-col lg:flex-row gap-8 ">
             <div class="text-center">
-            <div class="font-bold radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+            <div class="font-bold radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
             <h3 class="mt-6 mb-3 text-sm font-bold text-center">Prayer Facility</h3>
             <p class="text-center ">Every Muslim is expected to pray five times a day and thus access to prayer facilities is of utmost importance to a Muslim player.</p>
             </div>
             <div class="text-center">
-            <div class="font-bold radial-progress text-[#49D293]" style="--value:77;" role="progressbar">77%</div>
+            <div class="font-bold radial-progress text-[#49D293]" style="--value:77;" role="progressbar"><span class="text-black">77%</span></div>
                 <h3 class="mt-6 mb-3 text-sm font-bold text-center">Experienced Coach</h3>
             <p class="text-center ">Listen to the Culture in Sports Podcast to gain insight on positive leadership. Culture in Sports – Culture Is Critical for Long Term Success.</p>
             </div>
             <div class="text-center">
-            <div class="font-bold radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+            <div class="font-bold radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
             <h3 class="mt-6 mb-3 text-sm font-bold text-center">Senior Player</h3>
             <p class="text-center ">Senior Player means a player who has played International, provincial, or professional rugby in any jurisdiction in the current or last 3 preceding seasons.</p>
             </div>
             <div class="text-center">
-            <div class="font-bold radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+            <div class="font-bold radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
             <h3 class="mt-6 mb-3 text-sm font-bold text-center">Training Ground</h3>
             <p class="text-center ">We've built a community of the best personal trainers, nutritionists, and physical therapists in the area. </p>
             </div>
@@ -156,7 +164,7 @@
                       </div>
                     </div>
                   </div>
-                <div class="card w-[100%] lg:w-[1295px] bg-base-100 shadow-xl image-full">
+                <div class="card w-[100%] lg:w-[1295px]  bg-base-100 shadow-xl image-full">
                     <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="text-xl font-bold text-[#FFF] pt-72" >Professional Program</h2>
@@ -300,7 +308,7 @@
       <hr class="lg:mx-0 mx-5 lg:my-10 my-8">
         <section class="grid lg:grid-cols-3 gap-8 border-2 rounded-xl p-10">
           <div>
-            <img src="Images/11.png" alt="">
+            <img class="w-full" src="Images/11.png" alt="">
           </div>
           <div class="lg:w-[800px]">
             <div tabindex="0" class="collapse collapse-plus border-b-2">
@@ -423,7 +431,7 @@
     <footer class="footer py-14 px-28 bg-[#131318] text-[#FFF] ">
         <div class="sm:justify-center">
             <h3 class="text-xl font-bold">Get In Touch</h3>
-            <p class="w-80 text-gray-400">We'd love to welcome you to our hockey club so if you're thinking of joining us</p>
+            <p class="lg:w-80 text-gray-400">We'd love to welcome you to our hockey club so if you're thinking of joining us</p>
             <div class="pt-2">
                 <p class="mb-2"><i class="fa-regular fa-envelope pr-3 text-[#FF4240]"></i>hockeys@support.com</p>
                 <p><i class="fa-solid fa-phone pr-3 text-[#FF4240]"></i>(+62) 123-321-543</p>
